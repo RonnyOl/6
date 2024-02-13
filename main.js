@@ -7,6 +7,7 @@ let index = 0;
 function actualizarHora(d){
     let hora = ` ${d.date}`.substring(0,11)
     titleTienda.innerText = "Tienda de fortnite del dia" + hora;
+    
 }
 
  
